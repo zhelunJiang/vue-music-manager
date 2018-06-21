@@ -1,4 +1,4 @@
-# nice-music
+# vue-music-manager
 
 > A Vue.js project
 
