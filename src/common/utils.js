@@ -11,6 +11,14 @@ export function dateFormat(value) {
   if (H < 10) { H = '0' + H; }
   if (i < 10) { i = '0' + i; }
   if (s < 10) { s = '0' + s; }
-  var vart = Y + '-' + m + '-' + d;
+  var vart = Y + '-' + m + '-' + d + ' '+ H + ':'+ i + ':'+ s ;
   return vart;
-}
+};
+export function newData(tag,org) {
+  tag ={}
+  tag = Object.assign({}, tag, org);
+  return tag;
+};
+export var baseImgPath = 'project/img/'
+export var baseMusicPath = 'project/musicFile/'
+
